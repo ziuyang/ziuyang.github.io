@@ -1,0 +1,117 @@
+body {
+    background-color: #000000   !important;
+    font-family: 'Noto Sans KR', sans-serif !important;
+    color: #ffffff  !important;
+    background: linear-gradient( to bottom, #212121 95%, #000000 100%);
+}
+
+header {
+    height: 20%;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+main {
+    height: 70%;
+}
+
+
+footer {
+    text-align: center;
+    height: 20%;
+    padding: 5rem 0 1rem 0;
+}
+
+/* header */
+.banner {
+    width: 15rem;
+    height: 15rem;
+    margin: 1rem auto;
+}
+
+/* main */
+.quote.title {
+    color: #f19e21;
+
+}
+.title {
+    font-size: 2rem;
+    text-align: center;
+    margin: 5rem 0 3rem 0;
+}
+
+table.info {
+    width: 100%;
+    
+}
+
+.col-sm {
+    background-color: #000000;
+    margin: 1rem;
+    border-radius: 5px;
+}
+
+.card-img-top {
+    width: 50%;
+    height: auto;
+    background-color: #000000;
+}
+
+.card-body {
+    padding: 0.5rem 0 1rem 0   !important;
+    color: #7a7d84;
+    text-align: center;
+}
+
+.name {
+    font-size: 2vw;
+}
+
+.description {
+    font-size: 1vw;
+}
+
+img.logo {
+    width: 3rem;
+    height: auto;
+    margin: 0 1.9vw 0 1.9vw;
+    
+}
+
+.contacts {
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: none   !important;
+    box-shadow: #f19e21;
+  }
+
+
+/* footer */
+footer > p {
+    color: #7a7d84;
+    font-weight: 100;
+    font-size: 0.7rem;
+    margin: 0;
+}
+
+
+
+
+
+/* for mobile */
+@media screen and (max-width: 600px) {
+    .row {
+        padding: 0 10vw 0 10vw;
+    }
+
+    .name {
+        font-size: 6vw;
+        font-weight: 700;
+    }
+
+    .description {
+        font-size: 3vw;
+    }
+  }
